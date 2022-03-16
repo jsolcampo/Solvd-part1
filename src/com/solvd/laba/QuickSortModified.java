@@ -1,6 +1,7 @@
 package com.solvd.laba;
 
-public class QuickSort {
+public class QuickSortModified {
+	
 	private int partition(int arr[], int low, int high) {
 		int pivot = arr[high];
 		int i = (low - 1);
